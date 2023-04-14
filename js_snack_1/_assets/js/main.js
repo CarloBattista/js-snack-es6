@@ -33,6 +33,9 @@ const biciDaCorsa = [
     }
 ];
 
+// Assumo la prima bici come la più leggera
+let biciLeggera = biciDaCorsa[0];
+
 const containerHtml = document.querySelector(".container");
 
 // Destructuring con forEach
