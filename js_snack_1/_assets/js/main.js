@@ -43,6 +43,6 @@ biciDaCorsa.forEach((element, index) => {
     const peso = element.peso
 
     // Stampo in console: Nome bici e peso
-    console.log(nome, peso)
+    console.log(nome, parseFloat(peso))
 
 });
