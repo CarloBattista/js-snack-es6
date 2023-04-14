@@ -18,9 +18,11 @@ function arrayInRange(array, a, b) {
     return array.filter((_, index) => index >= a && index <= b);
 }
 
-
 // Definiamo un array di stringhe contenente quattro nomi.
 const nomi = ['alberto', 'michele', 'angelo', 'simone'];
 
 // Chiamo la funzione arrayInRange passando l'array nomi e i valori 2 e 4
 const newArray = arrayInRange(nomi, 2, 4);
+
+// Stampo in console il nuovo array restituito dalla funzione arrayInRange
+console.log(newArray);
