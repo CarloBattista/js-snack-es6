@@ -39,5 +39,7 @@ let biciLeggera = biciDaCorsa[0];
 
 // Destructuring e forEach per eseguire una funzione per ogni elemento presente nell'array
 biciDaCorsa.forEach(({nome, peso}) => {
-
+    if (parseFloat(peso) < parseFloat(biciLeggera.peso)) {
+        biciLeggera = {nome, peso}; // Aggiorno la bici più leggera
+    }
 });
