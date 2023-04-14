@@ -17,3 +17,7 @@ function arrayInRange(array, a, b) {
     // Metodo filter, Questo metodo restituisce un nuovo array contenente solo gli elementi che soddisfano una data condizione.
     return array.filter((_, index) => index >= a && index <= b);
 }
+
+
+// Definiamo un array di stringhe contenente quattro nomi.
+const nomi = ['alberto', 'michele', 'angelo', 'simone'];
