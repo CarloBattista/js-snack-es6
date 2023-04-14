@@ -21,3 +21,6 @@ function arrayInRange(array, a, b) {
 
 // Definiamo un array di stringhe contenente quattro nomi.
 const nomi = ['alberto', 'michele', 'angelo', 'simone'];
+
+// Chiamo la funzione arrayInRange passando l'array nomi e i valori 2 e 4
+const newArray = arrayInRange(nomi, 2, 4);
