@@ -34,3 +34,15 @@ const biciDaCorsa = [
 ];
 
 const containerHtml = document.querySelector(".container");
+
+// Destructuring con forEach
+biciDaCorsa.forEach((element, index) => {
+
+    // Inizializzo su una variabile nome e peso bici
+    const nome = element.nome
+    const peso = element.peso
+
+    // Stampo in console: Nome bici e peso
+    console.log(nome, peso)
+
+});
