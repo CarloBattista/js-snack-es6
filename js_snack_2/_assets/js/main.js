@@ -52,6 +52,8 @@ const squadre = [
 squadre.forEach((squadre) => {
     // Numeri random per i punti fatti
     squadre.puntiFatti = Math.floor(Math.random() * 101);
+    // Numeri random per i falli subiti
+    squadre.falliSubiti = Math.floor(Math.random() * 51);
 })
 
 console.log(squadre)
