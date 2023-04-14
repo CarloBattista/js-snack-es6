@@ -56,4 +56,8 @@ squadre.forEach((squadre) => {
     squadre.falliSubiti = Math.floor(Math.random() * 51);
 })
 
-console.log(squadre)
+// Crea un nuovo array di oggetti contenente solo nome e falliSubiti di ogni squadra
+const squadreFalliSubiti = squadre.map(({ nome, falliSubiti }) => ({ nome, falliSubiti }));
+
+// Stampa tutto in console
+console.log(squadre, squadreFalliSubiti);
