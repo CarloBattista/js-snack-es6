@@ -13,9 +13,18 @@ body {
     color: #fafafa;
 }
 
+.container{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .item{
     color: #fafafa;
-    font-size: 1rem;
+    font-size: 2.5rem;
     font-weight: 400;
 }
 
