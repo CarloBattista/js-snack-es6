@@ -47,3 +47,11 @@ const squadre = [
         falliSubiti: '0'
     },
 ];
+
+// Genera numeri random per puntiFatti e falliSubiti di ogni squadra
+squadre.forEach((squadre) => {
+    // Numeri random per i punti fatti
+    squadre.puntiFatti = Math.floor(Math.random() * 101);
+})
+
+console.log(squadre)
