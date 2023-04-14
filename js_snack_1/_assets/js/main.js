@@ -36,16 +36,8 @@ const biciDaCorsa = [
 // Assumo la prima bici come la più leggera
 let biciLeggera = biciDaCorsa[0];
 
-const containerHtml = document.querySelector(".container");
 
-// Destructuring con forEach
-biciDaCorsa.forEach((element, index) => {
-
-    // Inizializzo su una variabile nome e peso bici
-    const nome = element.nome
-    const peso = element.peso
-
-    // Stampo in console: Nome bici e peso
-    console.log(nome, parseFloat(peso))
+// Destructuring e forEach per eseguire una funzione per ogni elemento presente nell'array
+biciDaCorsa.forEach(({nome, peso}) => {
 
 });
