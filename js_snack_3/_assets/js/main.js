@@ -11,3 +11,8 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 Usiamo i nuovi metodi degli array foreach o filter.
 
 */
+
+// Definiamo la funzione arrayInRange che accetta tre argomenti: un array, un numero a e un numero b. Questa funzione restituisce un nuovo array contenente gli elementi dell'array con posizione compresa tra a e b.
+function arrayInRange(array, a, b) {
+    return array.filter((_, index) => index >= a && index <= b);
+}
