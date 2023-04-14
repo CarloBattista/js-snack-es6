@@ -12,3 +12,13 @@ body {
     background: #19171d;
     color: #fafafa;
 }
+
+.item{
+    color: #fafafa;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.peso{
+    font-weight: 700;
+}

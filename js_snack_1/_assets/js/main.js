@@ -32,3 +32,5 @@ const biciDaCorsa = [
         peso: '17',
     }
 ];
+
+const containerHtml = document.querySelector(".container");
