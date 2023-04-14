@@ -43,3 +43,9 @@ biciDaCorsa.forEach(({nome, peso}) => {
         biciLeggera = {nome, peso}; // Aggiorno la bici più leggera
     }
 });
+
+const biciHtml = `
+    <div class="item">
+        <p class="nome">${biciLeggera.nome} <b class="peso">${biciLeggera.peso}</b></p>
+    </div>
+`;
