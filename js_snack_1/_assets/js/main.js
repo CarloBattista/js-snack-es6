@@ -33,6 +33,9 @@ const biciDaCorsa = [
     }
 ];
 
+// Weight
+let weight = "Kg";
+
 // Assumo la prima bici come la più leggera
 let biciLeggera = biciDaCorsa[0];
 
@@ -48,7 +51,7 @@ biciDaCorsa.forEach(({nome, peso}) => {
 
 const biciHtml = `
     <div class="item">
-        <p class="nome">${biciLeggera.nome} <b class="peso">${biciLeggera.peso}</b></p>
+        <p class="nome">${biciLeggera.nome} <b class="peso">${biciLeggera.peso} ${weight}</b></p>
     </div>
 `;
 
