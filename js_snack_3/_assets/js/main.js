@@ -14,5 +14,6 @@ Usiamo i nuovi metodi degli array foreach o filter.
 
 // Definiamo la funzione arrayInRange che accetta tre argomenti: un array, un numero a e un numero b. Questa funzione restituisce un nuovo array contenente gli elementi dell'array con posizione compresa tra a e b.
 function arrayInRange(array, a, b) {
+    // Metodo filter, Questo metodo restituisce un nuovo array contenente solo gli elementi che soddisfano una data condizione.
     return array.filter((_, index) => index >= a && index <= b);
 }
