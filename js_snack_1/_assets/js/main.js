@@ -36,6 +36,8 @@ const biciDaCorsa = [
 // Assumo la prima bici come la più leggera
 let biciLeggera = biciDaCorsa[0];
 
+// Seleziono il container nel DOM
+const containerHtml = document.querySelector(".container");
 
 // Destructuring e forEach per eseguire una funzione per ogni elemento presente nell'array
 biciDaCorsa.forEach(({nome, peso}) => {
@@ -49,3 +51,6 @@ const biciHtml = `
         <p class="nome">${biciLeggera.nome} <b class="peso">${biciLeggera.peso}</b></p>
     </div>
 `;
+
+// Stampo in pagina la bici più leggera
+containerHtml.innerHTML = biciHtml;
